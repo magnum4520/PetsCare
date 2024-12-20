@@ -1,0 +1,161 @@
+.top-section {
+  position: relative;
+  height: 875px;
+  display: flex;
+  justify-content: center;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #F7F7FF;
+
+    .top-section__background__circle--one {
+      position: absolute;
+      top: 41%;
+      left: 3%;
+      background: #FF8A1E;
+      width: 330px;
+      height: 330px;
+      border-radius: 50%;
+    }
+
+    .top-section__background__circle--two {
+      position: absolute;
+      top: -45%;
+      left: 40%;
+      background: #FF8A1E;
+      width: 1264px;
+      height: 1264px;
+      border-radius: 50%;
+    }
+
+    .top-section__background__circle--three {
+      position: absolute;
+      top: 8%;
+      left: 40%;
+      width: 810px;
+      height: 770px;
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    //top: 2%;
+    height: 7%;
+    width: 85%;
+    z-index: 2;
+    border-bottom: 2px solid #E1DFDE;
+    &__logo {
+      height: 60px;
+      width: 239px;
+    }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      width: 32%;
+      &__button {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 605px;
+    height: 327px;
+    border-radius: 25px;
+    background-color: white;
+    transform: rotate(5deg);
+    margin-top: 35%;
+    margin-left: -38%;
+    &__head {
+      transform: rotate(-5deg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 7%;
+      &__tittle {
+        font-size: 32px;
+        font-weight: 700;
+      }
+      &__info {
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+    &__input {
+      transform: rotate(-5deg);
+      width: 80%;
+      border: none;
+      border-bottom: 1px solid #E1DFDE;
+      padding: 2px 0;
+      outline: none;
+      font-size: 24px;
+      color: #000;
+      background: transparent;
+      margin-top: 6%;
+    }
+    &__input:focus {
+      border-bottom-color: #FF8A1E;
+      transition: border-bottom-color 0.3s ease-in-out;
+    }
+    &__input::placeholder {
+      font-size: 24px;
+      color: #C9C4C2;
+      text-align: center;
+    }
+    &__button {
+      transform: rotate(-5deg);
+      margin-top: 6%;
+      margin-left: 2%;
+      font-size: 20px;
+      background-color: #FF8A1E;
+      border-radius: 30px;
+      border: none;
+      color: #fff;
+      width: 25%;
+      height: 20%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
