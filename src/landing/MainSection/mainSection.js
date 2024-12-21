@@ -34,32 +34,34 @@ export const MainSection = () => {
                 План розвитку PetsCare у 2025 році
             </div>
 
-            <div className="grid-container">
-                <div className="grid-item">
+            <div className="develop-container">
+                <div className="pet">
                     <SecondDog/>
                 </div>
 
-                <div className="grid-item">
-                    <div className="grid-item__tittle">Січень–Березень<br/> 2025:</div>
-                    <div className="grid-item__description">Запуск медіа-розділу: новини, статті, поради ветеринарів.</div>
+                <div className="grid-container">
+                    <div className="grid-item">
+                        <div className="grid-item__tittle">Січень–Березень<br/> 2025:</div>
+                        <div className="grid-item__description">Запуск медіа-розділу: новини, статті, поради ветеринарів.</div>
+                    </div>
+
+                    <div className="grid-item">
+                        <div className="grid-item__tittle">Квітень–Червень<br/> 2025:</div>
+                        <div className="grid-item__description">Додавання каталогу ветеринарних клінік та лікарів з пошуком відгуків.</div>
+                    </div>
+
+                    <div className="grid-item">
+                        <div className="grid-item__tittle">Липень–Вересень <br/> 2025:</div>
+                        <div className="grid-item__description">Онлайн-консультації з ветеринарами у відео- та чат-форматах.</div>
+                    </div>
+
+                    <div className="grid-item">
+                        <div className="grid-item__tittle">Жовтень–Грудень<br/> 2025:</div>
+                        <div className="grid-item__description">Запуск маркетплейсу зоотоварів: кормів, вітамінів, аксесуарів.</div>
+                    </div>
                 </div>
 
-                <div className="grid-item">
-                    <div className="grid-item__tittle">Квітень–Червень<br/> 2025:</div>
-                    <div className="grid-item__description">Додавання каталогу ветеринарних клінік та лікарів з пошуком відгуків.</div>
-                </div>
-
-                <div className="grid-item">
-                    <div className="grid-item__tittle">Липень–Вересень <br/> 2025:</div>
-                    <div className="grid-item__description">Онлайн-консультації з ветеринарами у відео- та чат-форматах.</div>
-                </div>
-
-                <div className="grid-item">
-                    <div className="grid-item__tittle">Жовтень–Грудень<br/> 2025:</div>
-                    <div className="grid-item__description">Запуск маркетплейсу зоотоварів: кормів, вітамінів, аксесуарів.</div>
-                </div>
-
-                <div className="grid-item">
+                <div className="pet">
                     <CatIcon/>
                 </div>
             </div>
