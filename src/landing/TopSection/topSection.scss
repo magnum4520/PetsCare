@@ -13,7 +13,7 @@
     z-index: -1;
     background-color: #F7F7FF;
 
-    .top-section__background__circle--one {
+    &__circle--one {
       position: absolute;
       top: 41%;
       left: 3%;
@@ -23,7 +23,7 @@
       border-radius: 50%;
     }
 
-    .top-section__background__circle--two {
+    &__circle--two {
       position: absolute;
       top: -45%;
       left: 40%;
@@ -33,7 +33,7 @@
       border-radius: 50%;
     }
 
-    .top-section__background__circle--three {
+    &__circle--three {
       position: absolute;
       top: 8%;
       left: 40%;
